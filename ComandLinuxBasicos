@@ -1,0 +1,8 @@
+uname -a 
+sudo pacman -Sy
+sudo pacman -S unrar zip unzip gzip bzip2
+sudo pacman -S yay
+sudo yay -S --needed base-devel
+yay -S google-chrome
+sudo useradd -m nombredeusuario -G wheel -p passworddelusuario
+grep -rs “papirus” $HOME
